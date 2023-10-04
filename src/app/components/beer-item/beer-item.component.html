@@ -1,0 +1,7 @@
+<div class="mx-4 my-3">
+  <img class="h-32 border-t-lg mx-auto" [src]="beer?.image_url" />
+  <p class="w-fit mx-auto pt-5 font-bold">{{beer?.name}} </p>
+  <p class="pt-3 text-xs"><b>Malt: </b> <span *ngFor="let maltItem of beer?.ingredients?.malt">{{ maltItem.name }}, </span></p>
+  <p class="pt-3 text-xs"><b>Hops: </b> <span *ngFor="let hopsItem of beer?.ingredients?.hops">{{ hopsItem.name }}, </span></p>
+  <p class="pt-3 text-xs"><b>Food: </b> <span *ngFor="let foodItem of beer?.food_pairing">{{ foodItem }}, </span></p>
+</div>

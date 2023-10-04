@@ -1,0 +1,10 @@
+
+<div class="mx-4 lg:mx-10">
+  <h1 class="mx-auto w-fit mt-20 text-2xl lg:text-6xl">Search your beer</h1>
+  <div class="mt-10 lg:mt-20 text-center">
+    <search-input (changedText)="handleSearch($event)"></search-input>
+  </div>
+    <ul class="mt-8 md:mx-5 lg:mx-16 xl:mx-24 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <beer-item *ngFor="let item of listBeer" [beer]="item"></beer-item>
+    </ul>
+</div>
