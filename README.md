@@ -2,9 +2,10 @@
 Este es un proyecto de Angular que te permite consultar una API de cervezas y filtrar los resultados por varios parámetros, como el nombre de la cerveza o los ingredientes. Además, el proyecto utiliza Tailwind CSS para el diseño, lo que garantiza que la aplicación sea responsive y visualmente atractiva en cualquier dispositivo.
 
 ## Funcionalidades
-Consulta de un listado de cervezas filtrando por nombre e ingredientes.
-Diseño responsive gracias a Tailwind CSS.
-Detalles de cada cerveza, incluyendo información relevante.
+
+* Consulta de un listado de cervezas filtrando por nombre e ingredientes.
+* Diseño responsive gracias a Tailwind CSS.
+* Detalles de cada cerveza, incluyendo información relevante.
 
 ## Capturas de Pantalla
 ![Imagen PC](./screenshots/laptop.png)
